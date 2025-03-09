@@ -1,5 +1,5 @@
 package Day 8.lc;
-
+//leetcode question 189. Rotate the array by the give interger k 
 public class 189_rotate_array {
     public void rotate(int[] nums, int k) {
         k%=nums.length;
@@ -18,5 +18,5 @@ public class 189_rotate_array {
             start++;
             end--; 
         }
-    }
+    }   
 }
